@@ -6,7 +6,7 @@ document.body.innerHTML = `
 `;
 
 //Work starts here
-let myButton = document.createElement("button");
+const myButton = document.createElement("button");
 document.body.appendChild(myButton);
 
 myButton.textContent = "🔴";
